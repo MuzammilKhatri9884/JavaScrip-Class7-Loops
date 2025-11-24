@@ -104,6 +104,12 @@
 //         console.log(o);
 //     }
 // }
+// console.log("Series");
+// for(var o=1;o<=20;o++){
+//     if(o%2==0){
+//         console.log(o+"K");
+//     }
+// }
 
 //Q#8
 
@@ -192,3 +198,44 @@
 // for (var i = 0; i < students.length; i++) {
 //     console.log(students[i]+ "     " + scores[i]);
 // }
+
+//Q#14
+
+// var score = [12, 45, 3, 22, 34, 50];
+// var input5 = +prompt("Please Enter  desired stop value. which are [12, 45, 3, 22, 34, 50]");
+// var found = false;
+// for(var i = 0; i <= score.length;i++){
+//     console.log(score[i]);
+//     if(score[i] == input5){    
+//     found = true;
+//     break;
+//     }
+// }
+// if(!found){
+//         console.log("Connot Find the Value");
+// }
+
+//Q#15
+
+// var numberA = [[1,2,3],[4,5,6],[7,8,9]];
+// for(var i=0;i < numberA.length;i++){
+//     console.log(numberA[i]);
+// }
+
+//Q#16
+
+// var input6 = +prompt("Enter the Number this decreasing by 0.5");
+// for(var o=input6;o<=input6;o--){
+//     console.log(o);
+// }
+
+//Q#18
+
+// var product = 1;
+// for(var o=1;o<=7;o++){
+//     if(o%2!==0){
+//         console.log(o);
+//         product = o*product;
+//     }
+// }
+// console.log("The Product of Odd integer from 1 to 7 is",product);
